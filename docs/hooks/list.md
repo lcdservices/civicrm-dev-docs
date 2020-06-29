@@ -27,6 +27,7 @@ This is an overview list of all available hooks, listed by category.
 
 * **[hook_civicrm_alterLocationMergeData](hook_civicrm_alterLocationMergeData.md)** - allows you to alter the location information that will be moved from the duplicate contact to the master contact.
 * **[hook_civicrm_copy](hook_civicrm_copy.md)** - called after a CiviCRM object (Event, ContributionPage, Profile) has been copied.
+* **[hook_civicrm_customPre](hook_civicrm_customPre.md)** - called *before* the database write on a custom table.
 * **[hook_civicrm_custom](hook_civicrm_custom.md)** - called *after* the database write on a custom table.
 * **[hook_civicrm_managed](hook_civicrm_managed.md)** - allows a module to declare a list of managed entities using the API.
 * **[hook_civicrm_merge](hook_civicrm_merge.md)** - allows modification of the data used to perform merging of duplicates. It can be useful if your custom module has added its own tables related to CiviCRM contacts.
